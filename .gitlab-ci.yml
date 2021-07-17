@@ -1,5 +1,5 @@
 variables:
-  REPO_NAME: cqupt-help-bms
+  REPO_NAME: OrganizationIntroduction
 stages:
   - setup
   - compile
