@@ -1,5 +1,5 @@
-import Home from "../components/Home/Home";
-import Index from "../components/Index/Index";
+import Home from "../View/Home/Home";
+import Index from "../View/Index/Index";
 
 type Route = {
     path : string,
