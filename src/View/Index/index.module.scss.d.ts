@@ -8,6 +8,9 @@ declare const styles: {
   readonly "list": string;
   readonly "list_item": string;
   readonly "inner": string;
+  readonly "option": string;
+  readonly "prev": string;
+  readonly "next": string;
 };
 export = styles;
 

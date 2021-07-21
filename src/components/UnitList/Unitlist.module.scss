@@ -16,3 +16,9 @@
   flex-wrap: wrap;
   width: 350px;
 }
+
+@keyframes scle {
+  0%{
+    transform: scale(0.5);
+  }
+}
