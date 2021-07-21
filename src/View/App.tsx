@@ -9,9 +9,9 @@ function App() {
             <HashRouter>
                 <Switch>
                     {
-                        router.map((e) => {
+                        router.map((e,index) => {
                             return (
-                                <Route exact path={e.path} component={e.component}/>
+                                <Route key={index} exact path={e.path} component={e.component}/>
                             )
                         })
                     }

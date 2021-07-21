@@ -1,0 +1,18 @@
+.list_item {
+  width: 139px;
+  height: 146px;
+  margin-bottom: 35px;
+  transform: translateX(-10px);
+}
+.list_item:nth-of-type(odd) {
+  margin-right: 15px;
+}
+.list_item:nth-of-type(even){
+  margin-left: 14px;
+}
+.inner {
+  margin-left: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 350px;
+}

@@ -1,5 +1,13 @@
 declare const styles: {
-  readonly "red": string;
+  readonly "Index": string;
+  readonly "hidden_scroll": string;
+  readonly "header": string;
+  readonly "item": string;
+  readonly "star_icon": string;
+  readonly "star_icon_double": string;
+  readonly "list": string;
+  readonly "list_item": string;
+  readonly "inner": string;
 };
 export = styles;
 

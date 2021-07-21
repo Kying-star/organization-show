@@ -1,4 +1,16 @@
-.App {
+@font-face {
+  font-family: "SuHei";
+  src: url("../assets/font/MFSuHei_Noncommercial-Regular.ttf");
+}
+@font-face {
+  font-family: "TongXin";
+  src: url("../assets/font/MFTongXin_Noncommercial-Regular.ttf");
+}
+@font-face {
+  font-family: "PingFang SC";
+  src: url("../assets/font/PINGFANG_REGULAR.TTF");
+}
+App {
   text-align: center;
 }
 
