@@ -1,5 +1,5 @@
 variables:
-  REPO_NAME: organization_show
+  REPO_NAME: organization-show
 stages:
   - setup
   - compile
