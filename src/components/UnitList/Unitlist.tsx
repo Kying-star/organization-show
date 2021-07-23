@@ -5,7 +5,6 @@ import {useHistory} from "react-router-dom";
 interface Props {
     Unitlist: string[]
 }
-
 const Unitlist = (props: Props) => {
     const history = useHistory()
     const jump = (index: number) => index < 9 ? history.push(`/index?type=${index}`) : ""
