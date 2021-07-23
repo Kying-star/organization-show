@@ -1,5 +1,6 @@
 declare const styles: {
-  readonly "item": string;
+  readonly "short_item": string;
+  readonly "long_item": string;
 };
 export = styles;
 

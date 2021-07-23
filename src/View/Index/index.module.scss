@@ -19,7 +19,7 @@
   margin-top: 25px;
   position: relative;
   width: 322px;
-  height: 155px;
+  height: 250px;
   background: #ffffff;
 }
 .item {
@@ -45,7 +45,7 @@
   width: 25px;
   height: 50px;
   left: 292px;
-  top: 100px;
+  top: 190px;
   background-image: url("../../assets/image/Home/double-star.png");
   background-size: cover;
   z-index: 999;
@@ -123,12 +123,28 @@
       }
     }
     .prev {
+      font-family: "TongXin";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+      color: #0087FF;
+      text-shadow: -1px -1px 0px #FFFFFF;
       width: 140px;
       height: 74.5px;
       background: url(../../assets/image/Index/prev.png);
       background-size: cover;
     }
     .next {
+      font-family: "TongXin";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+      color: #0087FF;
+      text-shadow: -1px -1px 0px #FFFFFF;
       width: 140px;
       height: 74.5px;
       background: url(../../assets/image/Index/next.png);

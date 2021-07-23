@@ -4,6 +4,9 @@ import BannerSwiper from "../../components/swiper/Swiper";
 import {UnitInfo,UnitName,UnitBanners} from "../../assets/data/data";
 import {useLocation , useHistory} from 'react-router-dom';
 function Index() {
+    window.addEventListener('popstate',(e) => {
+        console.log(e)
+    });
     const history = useHistory()
     let index = Number(useLocation().search.replace(/\?type=/, ""))
     const prev = index === 0 ? 8 : index - 1
@@ -16,7 +19,7 @@ function Index() {
                     <header className={styles.header}>
                         <div className={styles.star_icon}/>
                         <div className={styles.star_icon_double}/>
-                        <BannerSwiper banner={UnitBanners[index]}/>
+                        <BannerSwiper banner={UnitBanners[index]} isLong={true}/>
                     </header>
                     <div className={styles.inner}>
                         <h1>{UnitInfo[index].title}简介</h1>

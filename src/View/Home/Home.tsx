@@ -11,7 +11,7 @@ function Home() {
                 <header className={styles.header}>
                     <div className={styles.star_icon}/>
                     <div className={styles.star_icon_double}/>
-                    <BannerSwiper banner={banner}/>
+                    <BannerSwiper banner={banner} isLong={false}/>
                 </header>
                 <Unitlist Unitlist={UnitLists}/>
                 <footer className={styles.footer}>©红岩网校工作站出品</footer>
