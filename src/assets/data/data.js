@@ -74,11 +74,23 @@ const UnitName = [
     "红岩网校工作站","科技联合会", "社团管理部","团委组织部","团委办公室","大学生艺术团","校学生会","青年志愿者协会","团委宣传部"
 ]
 
-const banner = ["zscy", "cyb", "cqupt_map"]
+const banner = ["Home/banner/zscy", "Home/banner/cyb", "Home/banner/cqupt_map"]
+const UnitBanners = [
+    ["Index/redrock/img1","Index/redrock/img2"],
+    ["Index/TechnologyFederation/img1","Index/TechnologyFederation/img2","Index/TechnologyFederation/img3"],
+    ["Index/AssociationManagementDepartment/img1","Index/AssociationManagementDepartment/img2","Index/AssociationManagementDepartment/img3","Index/AssociationManagementDepartment/img4"],
+    ["Index/ReunionCommitteeOrganizationDepartment/img1","Index/ReunionCommitteeOrganizationDepartment/img2"],
+    ["Index/MissionCommitteeOffice/img1","Index/MissionCommitteeOffice/img2","Index/MissionCommitteeOffice/img3"],
+    ["Index/UniversityArtGroup/img1","Index/UniversityArtGroup/img2","Index/UniversityArtGroup/img3"],
+    ["Index/SchoolStudentCouncil/img1","Index/SchoolStudentCouncil/img2","Index/SchoolStudentCouncil/img3","Index/SchoolStudentCouncil/img4"],
+    ["Index/YouthVolunteerAssociation/img1","Index/YouthVolunteerAssociation/img2"],
+    ["Index/PublicityDepartmentoftheYouthLeagueCommittee/img1","Index/PublicityDepartmentoftheYouthLeagueCommittee/img2"],
+]
 
 export {
     UnitLists,
     banner,
     UnitInfo,
-    UnitName
+    UnitName,
+    UnitBanners
 }

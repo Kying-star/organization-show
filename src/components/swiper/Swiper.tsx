@@ -22,7 +22,7 @@ const BannerSwiper = (props:Props) =>{
     {
         props.banner.map((img) => {
             return <SwiperSlide key={img}>
-                <img  className={styles.item} src={require(`../../assets/image/Home/banner/${img}.png`).default}  alt={""}/>
+                <img  className={styles.item} src={require(`../../assets/image/${img}.png`).default}  alt={""}/>
             </SwiperSlide>
         })
     }

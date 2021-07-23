@@ -76,6 +76,7 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
   },
+  "homepage": "./organization-showstatic",
   "eslintConfig": {
     "extends": [
       "react-app",

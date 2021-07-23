@@ -1,7 +1,7 @@
 import styles from "./index.module.scss";
 import React from 'react';
 import BannerSwiper from "../../components/swiper/Swiper";
-import {banner,UnitInfo,UnitName} from "../../assets/data/data";
+import {UnitInfo,UnitName,UnitBanners} from "../../assets/data/data";
 import {useLocation , useHistory} from 'react-router-dom';
 function Index() {
     const history = useHistory()
@@ -16,7 +16,7 @@ function Index() {
                     <header className={styles.header}>
                         <div className={styles.star_icon}/>
                         <div className={styles.star_icon_double}/>
-                        <BannerSwiper banner={banner}/>
+                        <BannerSwiper banner={UnitBanners[index]}/>
                     </header>
                     <div className={styles.inner}>
                         <h1>{UnitInfo[index].title}简介</h1>

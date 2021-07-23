@@ -7,7 +7,7 @@
   flex-direction: column;
   align-items: center;
   width: 375px;
-  height: 603px;
+  height: 100vh;
   background-image: url("../../assets/image/Home/bk.png");
   background-size: cover;
 
@@ -52,7 +52,7 @@
   .hidden_scroll {
     position: relative;
     width: 350px;
-    height: 607px;
+    height: 100vh;
     overflow: hidden;
   }
 
