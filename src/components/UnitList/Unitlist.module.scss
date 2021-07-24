@@ -2,8 +2,8 @@
   width: 139px;
   height: 146px;
   margin-bottom: 35px;
-  transform: translateX(-10px);
-  animation: scle .7s ease-in-out;
+  transform: translateX(-9px);
+  animation: scle .7s linear;
 }
 .list_item:nth-of-type(odd) {
   margin-right: 15px;
@@ -20,9 +20,9 @@
 
 @keyframes scle {
   0%{
-    transform: rotateY(90deg) translateX(-10px);
+    transform: rotateY(90deg) translateX(-9px);
   }
   100%{
-    transform: rotateY(0deg) translateX(-10px);
+    transform: rotateY(0deg) translateX(-9px);
   }
 }

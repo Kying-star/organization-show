@@ -3,18 +3,17 @@ import SwiperCore, {Pagination, Autoplay} from 'swiper';
 import 'swiper/swiper.scss';
 import styles from "./Swiper.module.scss";
 import React from "react";
-
 interface Props {
-    banner : string[],
-    isLong : boolean
+    banner: string[],
+    isLong: boolean
 }
 
-const BannerSwiper = (props:Props) =>{
+const BannerSwiper = (props: Props) => {
     SwiperCore.use([Pagination, Autoplay]);
-    const getClass = (type:boolean) => {
-        if (type){
+    const getClass = (type: boolean) => {
+        if (type) {
             return styles.long_item
-        }else{
+        } else {
             return styles.short_item
         }
     }
@@ -27,19 +26,18 @@ const BannerSwiper = (props:Props) =>{
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
         >
-    {
-        props.banner.map((img) => {
-            return <SwiperSlide key={img}>
-                <img
-                    className={getClass(props.isLong)}
-                    style={{
-                        height:``
-                    }}
-                    src={require(`../../assets/image/${img}.png`).default}  alt={""}/>
-            </SwiperSlide>
-        })
-    }
-    </Swiper>
+            {
+                props.banner.map((img) => {
+                    return <SwiperSlide key={img}>
+                        <img
+                            className={getClass(props.isLong)}
+                            src={require(`../../assets/image/${img}.png`).default}
+                            alt={""}
+                        />
+                    </SwiperSlide>
+                })
+            }
+        </Swiper>
     )
 }
 
