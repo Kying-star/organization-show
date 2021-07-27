@@ -23,8 +23,6 @@ const BannerSwiper = (props: Props) => {
             slidesPerView={1}
             autoplay={{delay: 3000}}
             loop={true}
-            onSlideChange={() => console.log('slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
         >
             {
                 props.banner.map((img) => {

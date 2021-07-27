@@ -4,14 +4,15 @@ import BannerSwiper from "../../components/swiper/Swiper";
 import {UnitInfo,UnitName,UnitBanners} from "../../assets/data/data";
 import {useLocation , useHistory} from 'react-router-dom';
 function Index() {
-    window.addEventListener('popstate',(e) => {
-        console.log(e)
-    });
     const history = useHistory()
     let index = Number(useLocation().search.replace(/\?type=/, ""))
     const prev = index === 0 ? 8 : index - 1
     const next = index === 8 ? 0 : index + 1
     const jump = (index : number) => history.push(`/index?type=${index}`)
+    window.removeEventListener('popstate', ()=>{}, false);
+    window.addEventListener('popstate',(e) => {
+        history.push("/")
+    });
     return (
         <div className={styles.Index}>
             <div className={styles.hidden_scroll}>
