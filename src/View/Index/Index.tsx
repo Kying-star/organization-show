@@ -29,7 +29,6 @@ function Index() {
                             <div className={styles.prev}  onClick={()=>{jump(prev)}}> <p>{UnitName[prev]}</p> </div>
                             <div className={styles.next}  onClick={()=>{jump(next)}}> <p>{UnitName[next]}</p> </div>
                         </div>
-
                     </div>
                 </div>
             </div>

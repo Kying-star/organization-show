@@ -2,17 +2,16 @@
   width: 139px;
   height: 146px;
   margin-bottom: 35px;
-  transform: translateX(-9px);
   animation: scle .7s linear;
 }
 .list_item:nth-of-type(odd) {
-  margin-right: 15px;
+  margin-right: 14px;
 }
 .list_item:nth-of-type(even){
-  margin-left: 14px;
+  margin-left: 8px;
 }
 .inner {
-  margin-left: 30px;
+  margin-left: 28px;
   display: flex;
   flex-wrap: wrap;
   width: 350px;
@@ -20,9 +19,9 @@
 
 @keyframes scle {
   0%{
-    transform: rotateY(90deg) translateX(-9px);
+    transform: rotateY(90deg) ;
   }
   100%{
-    transform: rotateY(0deg) translateX(-9px);
+    transform: rotateY(0deg);
   }
 }
