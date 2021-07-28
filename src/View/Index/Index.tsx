@@ -20,7 +20,7 @@ function Index() {
                     <header className={styles.header}>
                         <div className={styles.star_icon}/>
                         <div className={styles.star_icon_double}/>
-                        <BannerSwiper banner={UnitBanners[index]} isLong={true}/>
+                        <BannerSwiper banner={UnitBanners[index]} isLong={true} />
                     </header>
                     <div className={styles.inner}>
                         <h1>{UnitInfo[index].title}简介</h1>

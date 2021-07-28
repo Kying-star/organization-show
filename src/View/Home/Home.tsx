@@ -2,7 +2,7 @@ import styles from './Home.module.scss';
 import React from 'react';
 import BannerSwiper from "../../components/swiper/Swiper"
 import Unitlist from "../../components/UnitList/Unitlist";
-import {banner,UnitLists} from "../../assets/data/data";
+import {banner,UnitLists,Link} from "../../assets/data/data";
 
 function Home() {
     return <div className={styles.Home}>
@@ -11,7 +11,7 @@ function Home() {
                 <header className={styles.header}>
                     <div className={styles.star_icon}/>
                     <div className={styles.star_icon_double}/>
-                    <BannerSwiper banner={banner} isLong={false}/>
+                    <BannerSwiper banner={banner} isLong={false} jump={Link}/>
                 </header>
                 <Unitlist Unitlist={UnitLists}/>
                 <footer className={styles.footer}>©红岩网校工作站出品</footer>

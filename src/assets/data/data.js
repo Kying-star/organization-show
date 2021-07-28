@@ -11,6 +11,13 @@ const UnitLists = [
     "Pleaselookforwardto"
 ]
 
+
+const Link = [
+    "https://m.app.redrock.team/#/",
+    "https://redrock.team/#/",
+    "https://be-prod.redrock.team/magipoke-stumap/map.jpg"
+]
+
 const UnitInfo = [
     {
         title: "红岩网校工作站",
@@ -75,6 +82,7 @@ const UnitName = [
 ]
 
 const banner = ["Home/banner/zscy", "Home/banner/cyb", "Home/banner/cqupt_map"]
+
 const UnitBanners = [
     ["Index/redrock/img1","Index/redrock/img2"],
     ["Index/TechnologyFederation/img1","Index/TechnologyFederation/img2","Index/TechnologyFederation/img3"],
@@ -92,5 +100,6 @@ export {
     banner,
     UnitInfo,
     UnitName,
-    UnitBanners
+    UnitBanners,
+    Link
 }
